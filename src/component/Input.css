@@ -1,0 +1,30 @@
+.comp-input-box{
+	display: flex;
+	position: relative;
+	width: 400px;
+	height: 30px;
+	padding: 10px;
+	justify-content: space-between;
+}
+.comp-title{
+	line-height: 30px;
+	font-size: 14px;
+}
+.comp-input{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding: 0 10px;
+	border: 1px solid gray;
+}
+.comp-checkTips{
+	position: absolute;
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: red;
+	right: -150px;
+}

@@ -1,0 +1,40 @@
+.comp-drop-box{
+	display: flex;
+	position: relative;
+	width: 400px;
+	height: 30px;
+	padding: 10px;
+	justify-content: space-between;
+}
+.comp-title{
+	line-height: 30px;
+	font-size: 14px;
+}
+.comp-input{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding: 0 10px;
+	border: 1px solid gray;
+}
+.comp-content{
+	position: absolute;
+	width: 300px;
+	padding: 0 10px;
+	border: 1px solid gray;
+	top: 50px;
+	right: 10px;
+	z-index: 99;
+	background-color: #fff;
+}
+.comp-contentLi{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	border-bottom: 1px dotted gray; 
+}
+.comp-contentLi:last-child{
+	border-bottom: 0px;
+}
